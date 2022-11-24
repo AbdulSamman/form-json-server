@@ -1,0 +1,20 @@
+
+@url=http://localhost:6777
+
+### GET JOBS
+GET {{url}}/jobs
+
+### GET ONE JOB
+GET {{url}}/jobs/1
+
+### POST JOBS
+POST {{url}}/jobs
+Content-Type: application/json
+
+{
+    "jobTitle": "VueJs Job",
+    "description": "This job is with VueJs"
+}
+
+### DELETE ONE JOB
+DELETE {{url}}/jobs/1
