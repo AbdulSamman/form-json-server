@@ -207,6 +207,7 @@ function App() {
                     onChange={(e) => handleFormChange(e, "rank")}
                     min="0"
                     max="10"
+                    step={0.1}
                   />
                 </div>
               </div>
